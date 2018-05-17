@@ -96,6 +96,8 @@ public class PDFGenerator {
 //			Properties props = new Properties();
 //			props.setProperty("new-empty-tags", "o:p");
 //			tidy.setConfigurationFromProps(props);
+			
+			System.out.println(">>>>>>> TEST@);
 
 			tidy.setInputEncoding(encoding);
 			tidy.setOutputEncoding(encoding);
